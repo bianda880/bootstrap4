@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("bg.jpg") no-repeat;
+    background-attachment: fixed;
+}
+
+.bingkai{
+    background: #DDD;
+    width: 1000px;
+    margin: 20px auto;
+    border: rgb(255, 248, 219) solid 1px;
+}
+
+.bg{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("up.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.header{
+    background-color: springgreen;
+    padding: 2px 5px;
+}
+
+.judul{
+    color: rgb(78, 41, 15);
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.desc{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}

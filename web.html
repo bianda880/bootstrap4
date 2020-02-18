@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bianda punya</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="webku.css">
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-danger navbar-dark fixed-top">
+        <a href="#">
+            <img src="logo.png" width="50" height="50" alt="">
+        </a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#1" class="nav-link">Beranda</a></li>
+                <li class="nav-item"><a href="#2" class="nav-link">Jenis Tanaman</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="kontak" data-toggle="dropdown">Hutan Lindung</a>
+                    <div class="dropdown-menu">
+                        <a href="#3" class="dropdown-item">Pengertian</a>
+                        <a href="#4" class="dropdown-item">Manfaat</a>
+                        <a href="#5" class="dropdown-item">Kriteria</a>
+                        <a href="#6" class="dropdown-item">Contoh</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#7" class="nav-link">Hari Peringatan</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container bingkai">
+        <div class="header" id="1">
+            <h1 class="judul" align="center">Lingkungan Hidup</h1>
+            <p align="center" class="desc">“Di hutan, hidup dan makanan bergantung pada bagaimana menjaga perangaimu.”</p>
+        </div>
+        <div class="carousel slide" data-ride="carousel" id="slide" id="1">
+            <ul class="carousel-indicators">
+                <li data-target="#slide" data-slide-to="0" class="active"></li>
+                <li data-target="#slide" data-slide-to="1"></li>
+                <li data-target="#slide" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="gambar1.jpg" width="100%" height="500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="gambar2.png" width="100%" height="500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="gambar3.jpg" width="100%" height="500" alt="">
+                </div>
+            </div>
+
+            <a href="#slide" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slide" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <h2 id="2">Jenis Tanaman Berdasarkan Tinggi Wilayah</h2>
+        <div class="row">
+            <div class="card col-md-3">
+                <img src="jagung.jpg" class="card-img-top" height="150px">
+                <div class="card-header bg-info text-white">Zona Iklim Panas (ketinggian 0-700 mdpl)</div>
+                <div class="card-body">
+                    Pada zona ini, suhu udara berkisar antara 22ºC-26,3ºC. Tanaman pertanian 
+                    yang cocok dibudidayakan adalah padi, tebu, kelapa, cokelat, dan jagung.
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-sm btn-info">Sipp</button>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="teh.jpg" class="card-img-top" height="150px">
+                <div class="card-header bg-info text-white">Zona Iklim Sedang (ketinggian 700-1500 mdpl)</div>
+                <div class="card-body">
+                    Pada zona ini, suhu udaranya berkisar antara 17,1 ºC-22 ºC dengan tanaman 
+                    yang cocok untuk dibudidayakan adalah teh, kina, kopi, karet, cokelat, dan sayuran.
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-sm btn-info">Sipp</button>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="pinus.jpg" class="card-img-top " height="150px">
+                <div class="card-header bg-info text-white"> Zona Iklim Sejuk (ketinggian 1500-2500 mdpl)</div>
+                <div class="card-body">
+                    Pada zona ini, suhu udara berkisar 11,1ºC-17,1 ºC dengan tanaman 
+                    yang dapat tumbuh adalah pohon pinus, cemara, dan beberapa jenis sayuran seperti kentang.
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-sm btn-info">Sipp</button>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="lumut.jpg" class="card-img-top" height="150px">
+                <div class="card-header bg-info text-white">Zona Iklim Dingin (ketinggian >2500 mdpl)</div>
+                <div class="card-body">
+                    Pada zona ini, suhu udaranya berkisar antara 6,2ºC-11,1ºC dengan jenis tanaman 
+                    yang dapat tumbuh bukan dari golongan tanaman budidaya. Tanaman yang bisa tumbuh 
+                    di ketinggian ini adalah lumut (Bryophyta).
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-sm btn-info">Sipp</button>
+                </div>
+            </div>
+        </div>
+
+        <h2><b>Hutan Lindung</b></h2>
+        <h4 id="3">Pengertian</h4>
+        <img src="1.jpg" alt="">
+        <p>
+        Hutan lindung adalah hutan yang di lindungi keberadaannya karena berfungsi sangat penting untuk menjaga 
+        keseimbangan ekosistem. Kawasan hutan yang ditetapkan sebagai hutan lindung mempunyai peran sebagai 
+        penyedia cadangan air bersih, penahan erosi, sebagai paru-paru kota, dan masih banyak lagi yang lainnya. 
+        Definisi hutan lindung menurut undang-undang No. 41 tahun 1999 tentang kehutanan merupakan “Kawasan hutan 
+        yang mempunyai fungsi pokok sebagai perlindungan sistem penyangga kehidupan untuk mengatur tata air, 
+        mengendalikan erosi tanah, mencegah banjir, mencegah intrusi air laut, dan menjaga kesuburan tanah.” 
+        Namun keberadaan hutan lindung tersebut tidak termasuk ke dalam kawasan hutan konservasi yang dikelola 
+        oleh pemerintah. Agar terhindar dari kerusakan yang dibuat oleh manusia, maka keberadaan hutan lindung 
+        ini harus di lindungi dan dijaga kelestariannya. Biasanya hutan lindung berada di tengah-tengah lokasi 
+        hutan produksi, hutan adat, hutan rakyat atau di daerah yang berbatasan dengan pemukiman dan perkotaan. 
+        Pengelolaannya dapat dilakukan dari pemerintah pusat, pemerintah daerah atau bahkan komunitas seperti 
+        masyarakat adat.
+        </p>
+        
+        <h4 id="4">Manfaat Hutan Lindung</h4>
+        <ol type="1">
+            <li>Mencegah Banjir</li>
+            <li>Sebagai Penimpanan Cadangan Air Tanah</li>
+            <li>Sebagai Pencegah Erosi</li>
+            <li>Memelihara Kesuburan Tanah</li>
+            <li>Sebagai Tempat Menyimpan Sumber Daya Genetika</li>
+            <li>Sebagai Habitat Flora dan Fauna</li>
+            <li>Sebagai Tempat Pendidikan dan Reaksi Alam</li>
+            <li>Sebagai Pencegah Intrusi Air Laut</li>
+            <li>Destinasi Wisata ALam</li>
+        </ol>
+
+        <h4 id="5">Kriteria Hutan Lindung</h4>
+        <ol type="1">
+            <li>
+                Kawasan hutan dengan faktor-faktor kelas lereng, jenis tanah, serta intensitas hujan setelah 
+                masing-masing dikalikan dengan angka penimbang memilki jumlah skor 175 atau lebih. 
+            </li>
+            <li>
+                Kawasan hutan yang memiliki lereng lapangan sebesar 40% atau lebih.
+            </li>
+            <li>
+                Kawasan hutan yang berada pada ketinggian 2000 meter atau lebih diatas permukaan air laut.
+            </li>
+            <li>
+                Kawasan hutan yang memiliki tanah yang sangat peka terhadap erosi dan memiliki lerenglapangan 
+                lebih dari 15%
+            </li>
+            <li>
+                Kawasan hutan yang merupakan daerah perlindungan pantai
+            </li>
+            <li>
+                Kawasan hutan yang merupakan daerah resapan air. 
+            </li>
+        </ol>
+
+        <h4 id="6">Contoh Hutan Lindung di Indonesia</h4>        
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#large1">
+            Hutan Lindung Sungai Wain
+        </button>
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#large2">
+            Hutan Lindung Wehea 
+        </button>
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#large3">
+            Hutan Lindung Alas Kethu
+        </button>
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#large4">
+            Hutan Lindung Taman Raya Bung Hatta
+        </button>
+
+        <div class="modal fade" id="large1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h4>Hutan Lindung Sungai Wain</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <img src="hutan1.jpeg" width="100%" alt="">
+                        Contoh hutan lindung yang pertama akan kita bahas adalah Hutan Lindung Sungai Wain. 
+                        Hutan yang satu letaknya ada di daerah kalimantan. Sebagaimana yang kita ketahui 
+                        bahwa kalimantan merupakan salah satu provinsi dengan hutan terluas di Indonesia. 
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="large2">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h4>Hutan Lindung Wehea</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <img src="hutan2.jpg" width="100%" alt="">
+                        Kawasan hutan lindung yang selanjutnya pun masih berada di kawasan kalimantan timur. 
+                        Kawasan hutan lindung yang satu ini disebut sebagai Hutan Lindung Wehea. Bisa dikatakan 
+                        kawasan Hutan Lindung Wehea ini juga merupakan salah satu contoh hutan konservasi 
+                        di Indonesia.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="large3">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h4>Hutan Lindung Alas Kethu</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <img src="hutan3.jpg" width="100%" alt="">
+                        Contoh hutan lindung yang selanjutnya berada di kawasan Wonogiri Jawa Tengah. 
+                        Hutan lindung yang satu ini memiliki luas yang tidak terlalu besar. Selain itu 
+                        jenis-jenis tanaman yang ada di dalamnya pun tidak terlalu beragam.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="large4">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h4>Hutan Lindung Taman Raya Bung Hatta</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <img src="hutan4.jpg" width="100%" alt="">
+                        Satu lagi kawasan hutan lindung di Indonesia yang tak boleh terlewat berada di 
+                        kawasan bukittinggi. Hutan Lindung Taman Raya Bung Hatta merupakan sebuah kawasan 
+                        hutan lindung yang memiliki luas kurang lebih 70.000 hektar. Kawasan hutan yang satu 
+                        ini memiliki banyak sekali spesies flora dan fauna di dalamnya.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="7"><b>Hari Peringatan Lingkungan</b></h2>
+        <div class="row">
+            <div class="col-12">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr class="table-secondary" align="center">
+                    <th>Tanggal</th>
+                    <th>Peringatan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-info">
+                    <td>15 Januari</td>
+                    <td>Hari Peringatan Laut & Samudera Nasional</td>
+                </tr>
+                <tr class="table-info">
+                    <td>2 Februari</td>
+                    <td>Hari Lahan Basah Sedunia</td>
+                </tr>
+                <tr class="table-info">
+                    <td>21 Februari</td>
+                    <td>Hari Peduli Sampah Nasional</td>
+                </tr>
+                <tr class="table-info">
+                    <td>21 Maret</td>
+                    <td>Hari Hutan Sedunia</td>
+                </tr>
+                <tr class="table-info">
+                    <td>22 Maret</td>
+                    <td>Hari Air Sedunia</td>
+                </tr>
+                <tr class="table-info">
+                    <td>23 Maret</td>
+                    <td>hari Meteorologi Dunia</td>
+                </tr>
+                <tr class="table-info">
+                    <td>22 April</td>
+                    <td>Hari Bumi</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Jumat Terakhir Bulan April</td>
+                    <td>Hari penanaman Pohon</td>
+                </tr>
+                <tr class="table-info">
+                    <td>3 Mei</td>
+                    <td>Hari Burung Migratori Internasional</td>
+                </tr>
+                <tr class="table-info">
+                    <td>3 Mei</td>
+                    <td>Hari Surya</td>
+                </tr>
+                <tr class="table-info">
+                    <td>22 Mei</td>
+                    <td>Hari Biodiversitas Dunia</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Jumat ke-3 Bulan Mei</td>
+                    <td>Hari Bersepeda ke kantor</td>
+                </tr>
+                <tr class="table-info">
+                    <td>31 Mei</td>
+                    <td>Hari Anti tembakau Internasional</td>
+                </tr>
+                <tr class="table-info">
+                    <td>5 Juni</td>
+                    <td>Hari Lingkungan Hidup Sedunia PBB</td>
+                </tr>
+                <tr class="table-info">
+                    <td>17 Juni</td>
+                    <td>Hari melawan Desertifikasi dan kekeringan Dunia PBB</td>
+                </tr>
+                <tr class="table-info">
+                    <td>11 Juli</td>
+                    <td>Hari populasi Dunia PBB</td>
+                </tr>
+                <tr class="table-info">
+                    <td>16 September</td>
+                    <td>Hari perlindungan lapisan ozon Sedunia</td>
+                </tr>
+                <tr class="table-info">
+                    <td>20 September</td>
+                    <td>Hari Emisi Nol</td>
+                </tr>
+                <tr class="table-info">
+                    <td>22 September</td>
+                    <td>Hari Bebas Mobil</td>
+                </tr>
+                <tr class="table-info">
+                    <td>4 Oktober (di 2008)</td>
+                    <td>eDay</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Senin pertama bulan Oktober</td>
+                    <td>Hari Habitat Dunia PBB</td>
+                </tr>
+                <tr class="table-info">
+                    <td>13 Oktober</td>
+                    <td>Hari pengurangan bencana alam Internasional</td>
+                </tr>
+                <tr class="table-info">
+                    <td>6 November</td>
+                    <td>
+                        Hari peringatan Sedunia (Mencegah Eksploitasi lingkungan 
+                        dalam pengurangan dan Konflik Bersenjata)
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td>21 November</td>
+                    <td>Hari Pohon</td>
+                </tr>
+                <tr class="table-info">
+                    <td>11 Desember</td>
+                    <td>Hari Gunung Sedunia</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Waktu tertentu di musim panas</td>
+                    <td>Hari Aksi Ozon</td>
+                </tr>
+            </tbody>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
